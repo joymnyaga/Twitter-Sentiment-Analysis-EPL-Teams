@@ -9,10 +9,10 @@ library(stringi)
 library(topicmodels)
 
 #Access Twitter
-consumer_key = "vwNbVuZtgNULNitX3ojlxcQsK" 
-consumer_secret = "5H6jJyayJOvFwPg5uSsQ4lrffrs8sFcurRqqYknQ53WDiTpv83"
-access_key = "4829791752-DXJ5O4L3rd2eZFtOTcUYzcsFRWKCSAA8MeMepVl"
-access_secret = "ouGK1xzaGnsuc8SatHTFXdP4iWheUMcNdDOSuTEmH4DYE"
+consumer_key = "XXXXXXXXXXXXXXX" 
+consumer_secret = "XXXXXXXXXXXXXXX"
+access_key = "XXXXXXXXXXXXXXX"
+access_secret = "XXXXXXXXXXXXXXX"
 setup_twitter_oauth(consumer_key, consumer_secret, access_key, access_secret)
 
 #Extract tweets
@@ -99,7 +99,7 @@ mysentiment_arsenal<-get_nrc_sentiment((arsenal_text))
 mysentiment_chelsea<-get_nrc_sentiment((chelsea_text))
 mysentiment_mancity<-get_nrc_sentiment((mancity_text))
 
-#calculationg total score for each sentiment
+#Calculating total score for each sentiment
 Sentimentscores_manutd<-data.frame(colSums(mysentiment_manutd[,]))
 Sentimentscores_arsenal<-data.frame(colSums(mysentiment_arsenal[,]))
 Sentimentscores_chelsea<-data.frame(colSums(mysentiment_chelsea[,]))
