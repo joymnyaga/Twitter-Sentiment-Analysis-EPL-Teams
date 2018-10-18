@@ -1,4 +1,4 @@
-# Twitter-Sentiment-Analysis---EPL-Teams
+# Twitter-Sentiment-Analysis-EPL-Teams
 Based on the NRC Word-Emotion Association Lexicon, the following project aims to analyze the sentiments of the people behind tweets of the top 4 most popular EPL Teams. These include
 1) Manchester United
 2) Arsenal
