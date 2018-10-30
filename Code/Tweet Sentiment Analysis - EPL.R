@@ -1,8 +1,3 @@
-#####################
-R Studio
-Author: Joy M. Nyaga
-#####################
-
 #Call libraries
 library(NLP)
 library(ROAuth)
